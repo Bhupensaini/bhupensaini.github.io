@@ -76,6 +76,12 @@ a {
   font-weight: 600;
 }
 
+/* .logon:hover {
+  box-shadow: 2px 2px 20px rgb(140, 202, 218);
+  transition: .5s;
+  cursor: pointer;
+} */
+
 .navbar__menu {
   display: flex;
   align-items: center;
@@ -296,11 +302,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* box-shadow: 2px 2px 20px rgb(140, 202, 218); */
   background-color: var(--darker-bg);
   border-radius: 20px;
   padding-bottom: 25px;
   padding-top: 50px;
   margin-bottom: 150px;
+}
+
+.about__section:hover {
+  box-shadow: 2px 2px 20px rgb(131, 143, 250);
+  transition: .5s;
+  /* cursor: pointer; */
 }
 
 .about__container {
@@ -315,6 +328,7 @@ a {
 .about__card {
   width: 100%;
   font-size: 0.9rem;
+  
   line-height: 150%;
 }
 
@@ -573,6 +587,84 @@ a {
   font-size: 500%;
   color: var(--main-accent);
 }
+
+.icon__item_python {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darker-bg);
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  font-size: 500%;
+  color: var(--main-accent);
+}
+
+.icon__item_python:hover {
+  box-shadow: 2px 2px 20px rgb(224, 255, 113);
+  /* color: white; */
+  transition: .5s;
+  cursor: pointer;
+}
+
+.icon__item_html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darker-bg);
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  font-size: 500%;
+  color: var(--main-accent);
+}
+
+.icon__item_html:hover {
+  box-shadow: 2px 2px 20px rgb(235, 37, 37);
+  /* color: white; */
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+.icon__item_css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darker-bg);
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  font-size: 500%;
+  color: var(--main-accent);
+}
+
+.icon__item_css:hover {
+  box-shadow: 2px 2px 20px rgb(32, 79, 233);
+  /* color: white; */
+  transition: .5s;
+  cursor: pointer;
+}
+
+.icon__item_javascript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darker-bg);
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 10px;
+  font-size: 500%;
+  color: var(--main-accent);
+}
+
+.icon__item_javascript:hover {
+  box-shadow: 2px 2px 20px rgb(160, 197, 26);
+  /* color: white; */
+  transition: .5s;
+  cursor: pointer;
+}
+
 
 .icon__item :hover {
   transform: scale(1.1);
