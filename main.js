@@ -1,6 +1,6 @@
 // typed js
 const typed = new Typed(".typing", {
-  strings: ["Basava International School", "Programmer", "Guitarist", "Fast Typer"],
+  strings: ["Basava International School Student", "Programmer", "Guitarist", "Fast Typer"],
   loop: true,
   typeSpeed: 80,
   backSpeed: 40,
