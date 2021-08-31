@@ -310,11 +310,10 @@ a {
   margin-bottom: 150px;
 }
 
-.about__section:hover {
-  box-shadow: 2px 2px 20px rgb(131, 143, 250);
+/* .about__section:hover {
+  box-shadow: 2px 2px 20px var(--main-accent);
   transition: .5s;
-  /* cursor: pointer; */
-}
+} */
 
 .about__container {
   color: #fff;
@@ -345,6 +344,54 @@ a {
   font-weight: 500;
   color: var(--main-accent);
 }
+
+/* .about_section {
+  margin: auto;
+  max-width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--darker-bg);
+  border-radius: 20px;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  margin-bottom: 150px;
+}
+
+.about_section:hover {
+  box-shadow: 2px 2px 20px var(--main-accent);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.about_container {
+  color: #fff;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_card {
+  width: 100%;
+  font-size: 0.9rem;
+  line-height: 150%;
+}
+
+.about_card h1 {
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.about_card p {
+  font-size: 110%;
+}
+
+.about_card a {
+  font-weight: 500;
+  color: var(--main-accent);
+} */
 
 @media screen and (max-width: 960px) {
   .about__card {
@@ -696,5 +743,4 @@ a {
 
 .heart {
   color: var(--main-accent);
-  
 }
