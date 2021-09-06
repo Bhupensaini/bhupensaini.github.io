@@ -1,9 +1,9 @@
 // typed js
 const typed = new Typed(".typing", {
   strings: [
-            "a Basava International School Student", 
-            "a Beginner Guitarist", 
-            "a Programmer", 
+            "a Basava International School Student",  
+            "a Competitive Programmer",
+            "a Beginner Guitarist",
             "a Fast Typer",
             "currently learning Japanese"
   ],
