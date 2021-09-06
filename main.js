@@ -1,7 +1,6 @@
 // typed js
 const typed = new Typed(".typing", {
   strings: [
-            "a Basava International School Student",  
             "a Competitive Programmer",
             "a Beginner Guitarist",
             "a Fast Typer",
