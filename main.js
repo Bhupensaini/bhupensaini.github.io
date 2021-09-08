@@ -1,13 +1,13 @@
 // typed js
 const typed = new Typed(".typing", {
   strings: [
-            "a Competitive Programmer",
-            "a Beginner Guitarist",
+            "a Basava International School Student", 
+            "a Competitive Programmer", 
+            "a Beginner Guitarist", 
             "a Fast Typer",
-            "currently learning Japanese"
   ],
   loop: true,
-  typeSpeed: 100,
+  typeSpeed: 62,
   backSpeed: 40,
 });
 
